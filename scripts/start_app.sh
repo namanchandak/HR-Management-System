@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-sed -i 's/\[]/\["51.20.37.179"]/' /home/ubuntu/HR-Management-System/hrms/settings.py
+sed -i 's/\[]/\["13.51.207.175"]/' /home/ubuntu/django_project/HR-Management-System/hrms/settings.py
 
 python manage.py migrate 
 python manage.py makemigrations     

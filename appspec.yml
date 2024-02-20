@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files: 
   - source: /
-    destination: /home/ubuntu/HR-Management-System
+    destination: /home/ubuntu/django_project/HR-Management-System
 permissions:
-  - object: /home/ubuntu/HR-Management-System
+  - object: /home/ubuntu/django_project/HR-Management-System
     owner: ubuntu
     group: ubuntu
 hooks:
